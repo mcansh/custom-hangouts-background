@@ -1,0 +1,12 @@
+{
+   "content_scripts": [ {
+      "css": [ "style.css" ],
+      "matches": ["http://*.hangouts.google.com/*", "https://*.hangouts.google.com/*"],
+      "run_at": "document_start"
+   } ],
+   "manifest_version": 2,
+   "name": "Custom Hangouts Background",
+   "description": "Change the Hangouts website background to anything of your choosing",
+   "version": "1.0",
+   "icons": { "200": "icon.png"}
+}
